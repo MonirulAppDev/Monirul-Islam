@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
   twitter: { card: "summary_large_image", title: "Monirul Islam — Flutter Developer", description: "Mobile products engineered for performance, reliability and scale.", images: ["/og-card.png"] },
   other: { "codex-preview": "development" },
-  icons: { icon: "/favicon.jpg", shortcut: "/favicon.jpg", apple: "/favicon.jpg" },
+  icons: { icon: "/favicon.svg", shortcut: "/favicon.svg", apple: "/favicon.svg" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

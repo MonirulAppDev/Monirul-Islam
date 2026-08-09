@@ -2,7 +2,7 @@ import { AppWindow, ArrowDown, ArrowUpRight, CalendarDays, CircleUserRound, Down
 import { links } from "@/data/portfolio";
 
 export function Header({ dark, onTheme }: { dark: boolean; onTheme: () => void }) {
-  return <nav className="nav shell" aria-label="Primary navigation"><a className="brand" href="#top">MI<span>.</span></a><div className="nav-links"><a href="#work">Projects</a><a href="#expertise">Expertise</a><a href="#experience">Experience</a><a href="#availability">Availability</a></div><div className="nav-actions"><button className="theme-toggle" onClick={onTheme} aria-label={`Switch to ${dark ? "light" : "dark"} mode`}>{dark ? <Sun size={17}/> : <Moon size={17}/>}</button><a className="nav-cta" href={links.calendly} target="_blank" rel="noreferrer">Let&apos;s talk <ArrowUpRight size={15}/></a></div></nav>;
+  return <header className="nav-wrapper"><nav className="nav shell" aria-label="Primary navigation"><a className="brand" href="#top">MI<span>.</span></a><div className="nav-links"><a href="#work">Projects</a><a href="#expertise">Expertise</a><a href="#experience">Experience</a><a href="#availability">Availability</a></div><div className="nav-actions"><button className="theme-toggle" onClick={onTheme} aria-label={`Switch to ${dark ? "light" : "dark"} mode`}>{dark ? <Sun size={17}/> : <Moon size={17}/>}</button><a className="nav-cta" href={links.calendly} target="_blank" rel="noreferrer">Let&apos;s talk <ArrowUpRight size={15}/></a></div></nav></header>;
 }
 
 export function Hero() {
