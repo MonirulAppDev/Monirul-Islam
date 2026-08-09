@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f5f3ec"/>
+  <circle cx="1030" cy="110" r="260" fill="#c9ff62"/>
+  <circle cx="1020" cy="560" r="210" fill="#dcefe6"/>
+  <rect x="62" y="55" width="1076" height="520" rx="30" fill="none" stroke="#d5d9d1" stroke-width="2"/>
+  <text x="105" y="130" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#14221c">MI<tspan fill="#52a952">.</tspan></text>
+  <text x="105" y="245" font-family="Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-3" fill="#14221c">Monirul Islam</text>
+  <text x="105" y="315" font-family="Georgia, serif" font-size="48" font-style="italic" fill="#316d50">Flutter Developer</text>
+  <text x="105" y="390" font-family="Arial, sans-serif" font-size="24" fill="#5f6e66">Mobile products engineered for performance,</text>
+  <text x="105" y="425" font-family="Arial, sans-serif" font-size="24" fill="#5f6e66">reliability and scale.</text>
+  <rect x="105" y="478" width="146" height="48" rx="24" fill="#14221c"/>
+  <text x="135" y="510" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">15+ apps</text>
+  <rect x="267" y="478" width="156" height="48" rx="24" fill="#dcefe6"/>
+  <text x="295" y="510" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#14221c">3+ years</text>
+  <g transform="translate(830 170) rotate(5)">
+    <rect width="220" height="320" rx="28" fill="#14221c"/>
+    <rect x="10" y="10" width="200" height="300" rx="22" fill="#ffffff"/>
+    <rect x="72" y="10" width="76" height="18" rx="0 0 10 10" fill="#14221c"/>
+    <rect x="35" y="65" width="150" height="20" rx="10" fill="#dcefe6"/>
+    <rect x="35" y="105" width="150" height="80" rx="15" fill="#e9e5fc"/>
+    <rect x="35" y="200" width="70" height="70" rx="14" fill="#c9ff62"/>
+    <rect x="115" y="200" width="70" height="70" rx="14" fill="#f3e6c9"/>
+  </g>
+</svg>
