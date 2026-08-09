@@ -9,6 +9,7 @@ export type Project = {
   tags: string[];
   accent: "violet" | "mint" | "amber";
   screen: "booking" | "flight" | "scan";
+  images?: string[];
   links: { github: string; playStore: string; appStore: string; proof: string };
   caseStudy: { problem: string; role: string; decisions: string; challenge: string; outcome: string };
 };
